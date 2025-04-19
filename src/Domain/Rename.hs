@@ -55,7 +55,7 @@ data MatchedEpisodes = UnsafeMatchedEpisodes
 -- Note that this zero-pads both the episode number and the season, for
 -- example: "Buffy the Vampire Slayer - s04e08 - Pangs"
 episodeNameTemplate :: FilePath
-episodeNameTemplate = "%s - s%02de%02d - %s"
+episodeNameTemplate = "%s - S%02dE%02d - %s"
 
 -- Strike that, reverse it!
 undoRenameOp :: RenameOp -> RenameOp
